@@ -1,0 +1,77 @@
+:root {
+  --red-rgb: 248 113 113;
+  --blue-rgb: 56 189 248;
+  --green-rgb: 74 222 128;
+  --yellow-rgb: 253 224 71;
+
+  --background-rgb: 0 0 0;
+}
+
+body {
+ text-align: center;
+ align-items: center;
+ color:#FAF0E6;
+ font-family:verdana; 
+ font-size: 30px;
+ background-color:#212121;
+ overflow-x: hidden;
+ background-image: url('dark_space.jpg');
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  text-align: center;
+  border:1px solid White;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a:link {
+  color: lime;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lime;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: magenta;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: lime;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+img {
+ width:200px;
+ height:200px;
+}
+
+div.container {
+  text-align: center;
+}
+
+ol.myUL {
+  display: inline-block;
+  text-align: left;
+}
+
+#p5-container {
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
