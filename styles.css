@@ -25,6 +25,7 @@ table, th, td {
   border-collapse: collapse;
   text-align: center;
   border:1px solid White;
+  border-style: none;
   padding: 15px;
   margin-left: auto;
   margin-right: auto;
@@ -75,4 +76,5 @@ ol.myUL {
   align-items: center;
   height: 70vh;
 }
+
 
